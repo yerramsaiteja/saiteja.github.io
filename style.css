@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #065327;
+}
+
+header {
+    background: linear-gradient(90deg, #130802, #14dd8d, #03200a);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(248, 238, 244);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #31a1d4;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about {
+    background-color: #1fb563;
+    color: #edf5f7;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.projects {
+    background-color: #59c3e6;
+    color: #2d3436;
+}
+
+/* General section styling */
+.section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Skills section styling */
+.skills {
+    background-color: #f4f4f9; /* Light background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    color: #333; /* Dark text for contrast */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills-list {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-item {
+    background-color: #dbf322; /* White background for items */
+    border: 1px solid #177faf; /* Light border for items */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    color: #1b0428; /* Darker text for readability */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect for skill items */
+.skill-item:hover {
+    background-color: #e0e0e0; /* Slightly darker background */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .skill-item {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+
+.sports {
+    background-color: #06121e;
+    color: white;
+}
+
+.contact {
+    background-color: #1f762c;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffeaa7;
+}
